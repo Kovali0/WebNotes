@@ -15,6 +15,12 @@ from pathlib import Path
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+LOGIN_REDIRECT_URL = '/users/dashboard'
+LOGOUT_REDIRECT_URL = '/users/dashboard'
+
+# For tests purpose of reseting password by email sender
+EMAIL_HOST = "localhost"
+EMAIL_PORT = 1025
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
