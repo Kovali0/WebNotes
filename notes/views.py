@@ -17,6 +17,10 @@ class NoteCreate(CreateView):
     model = Note
     fields = ['title', 'body']
 
+    def form_valid(self, form):
+        form.instance.user = self.request.user
+        return super(NoteCreate, self).form_valid(form)
+
 class NoteUpdate(UpdateView):
     model = Note
     fields = ['title', 'body']
