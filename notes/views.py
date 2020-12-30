@@ -9,6 +9,7 @@ from django.urls import reverse
 from notes.forms import CustomUserCreationForm
 from notes.models import Note
 
+
 class NoteListView(LoginRequiredMixin, ListView):
     model = Note
 
@@ -17,8 +18,10 @@ class NoteListView(LoginRequiredMixin, ListView):
             author=self.request.user
         )#.order_by('-date_posted') #TODO add field of created_date to note model and use it in ordering notes
 
+
 class NoteDetailView(DetailView):
     model = Note
+
 
 class NoteCreate(LoginRequiredMixin, CreateView):
     model = Note
@@ -30,6 +33,7 @@ class NoteCreate(LoginRequiredMixin, CreateView):
 
     def get_success_url(self):
         return reverse('note-list')
+
 
 class NoteUpdate(LoginRequiredMixin, UpdateView):
     model = Note
@@ -45,6 +49,7 @@ class NoteUpdate(LoginRequiredMixin, UpdateView):
             raise PermissionDenied
         return handler
 
+
 class NoteDelete(LoginRequiredMixin, DeleteView):
     model = Note
     success_url = reverse_lazy('note-list')
@@ -59,8 +64,10 @@ class NoteDelete(LoginRequiredMixin, DeleteView):
             raise PermissionDenied
         return handler
 
+
 def Dashboard(request):
     return render(request, "users/dashboard.html")
+
 
 def Register(request):
     if request.method == "GET":
