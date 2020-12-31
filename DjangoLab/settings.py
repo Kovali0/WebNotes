@@ -45,6 +45,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'notes',
     'django_extensions',
+    'mptt',
+    'django_mptt_admin',
 ]
 
 MIDDLEWARE = [
