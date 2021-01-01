@@ -7,7 +7,15 @@ from django.contrib.auth import login
 from django.urls import reverse
 
 from notes.forms import CustomUserCreationForm
-from notes.models import Note
+from notes.models import Note, Topic
+
+
+class TopicListView(LoginRequiredMixin, ListView):
+    model = Topic
+
+
+class TopicDetailView(DetailView):
+    model = Topic
 
 
 class NoteListView(LoginRequiredMixin, ListView):

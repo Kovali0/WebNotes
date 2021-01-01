@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>{{ topic.title }}</h1>
+    <h4>Created by: {{ topic.created }}</h4>
+    {% for note in notes %}
+        <a href="{% url 'note-detail' note.pk %}">{{ note.title }}</a>
+    {% empty %}
+        No notes for this topic.
+    {% endfor %}
+{% endblock %}

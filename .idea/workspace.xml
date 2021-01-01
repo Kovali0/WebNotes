@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d12490cf-1a81-414b-a9cd-6ca1a7d6256e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/topics/topic_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/topics/topic_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DjangoLab/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoLab/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/notes/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/notes/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/notes/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/notes/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +40,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kowalio\Desktop\UJ\Semestr1\EPwP\DjangoLab\templates\topics" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.manage">
     <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -137,6 +143,7 @@
       <workItem from="1608328511058" duration="2964000" />
       <workItem from="1609363019587" duration="2187000" />
       <workItem from="1609416630178" duration="5332000" />
+      <workItem from="1609523173319" duration="6195000" />
     </task>
     <servers />
   </component>
@@ -152,25 +159,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="583" y="88" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1608153667349" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1609425505189">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1609536902239">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609425505189" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609536902239" />
     <state width="1293" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608292551741" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1609425505189">
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1609536902239">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609425505189" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609536902239" />
     <state width="1293" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608292551741" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1609425505188">
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1609536902238">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609425505188" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609536902238" />
     <state width="1293" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608292551741" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1609425505189">
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1609536902239">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609425505189" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609536902239" />
     <state width="1293" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608292551741" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1608329402472">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -194,7 +201,7 @@
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1608246669438" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/DjangoLab$manage.coverage" NAME="manage Coverage Results" MODIFIED="1609425505174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DjangoLab$manage.coverage" NAME="manage Coverage Results" MODIFIED="1609536902214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DjangoLab$views.coverage" NAME="views Coverage Results" MODIFIED="1608328518901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/notes" />
   </component>
 </project>
