@@ -18,6 +18,47 @@ class TopicDetailView(DetailView):
     model = Topic
 
 
+class TopicCreate(LoginRequiredMixin, CreateView):
+    model = Topic
+    fields = ['title', 'parent', 'is_public']
+
+    def form_valid(self, form):
+        form.instance.author = self.request.user
+        return super(TopicCreate, self).form_valid(form)
+
+    def get_success_url(self):
+        return reverse('topic-list')
+
+
+class TopicUpdate(LoginRequiredMixin, UpdateView):
+    model = Topic
+    fields = ['title', 'parent', 'is_public']
+
+    def get_success_url(self):
+        return reverse('list')
+
+    def dispatch(self, request, *args, **kwargs):
+        handler = super().dispatch(request, *args, **kwargs)
+        current_topic = self.get_object()
+        if not (current_topic.author == request.user):
+            raise PermissionDenied
+        return handler
+
+
+class TopicDelete(LoginRequiredMixin, DeleteView):
+    model = Topic
+
+    def get_success_url(self):
+        return reverse('topic-list')
+
+    def dispatch(self, request, *args, **kwargs):
+        handler = super().dispatch(request, *args, **kwargs)
+        current_topic = self.get_object()
+        if not (current_topic.author == request.user):
+            raise PermissionDenied
+        return handler
+
+
 class NoteListView(LoginRequiredMixin, ListView):
     model = Note
 

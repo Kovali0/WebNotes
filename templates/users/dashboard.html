@@ -4,15 +4,19 @@
 
 {% block content %}
 
-Hello, {{ user.username|default:'Guest' }}!
+<div style="text-align:center">
 
-<div>
-    {% if user.is_authenticated %}
-        <a href="{% url 'logout' %}">Logout</a>
-        <a href="{% url 'password_change' %}">Change password</a>
-    {% else %}
-        <a href="{% url 'login' %}">Login</a>
-    {% endif %}
+    <h1>Hello, {{ user.username|default:'Guest' }}!</h1>
+
+    <div>
+        {% if user.is_authenticated %}
+            <button type="button" class="btn btn-info" href="{% url 'logout' %}">Logout</button>
+            <button type="button" class="btn btn-info" href="{% url 'password_change' %}">Change password</button>
+        {% else %}
+            <button type="button" class="btn btn-info" href="{% url 'login' %}">Login</button>
+        {% endif %}
+    </div>
+
 </div>
 
 {% endblock %}
