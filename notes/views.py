@@ -35,7 +35,7 @@ class TopicUpdate(LoginRequiredMixin, UpdateView):
     fields = ['title', 'parent', 'is_public']
 
     def get_success_url(self):
-        return reverse('list')
+        return reverse('topic-list')
 
     def dispatch(self, request, *args, **kwargs):
         handler = super().dispatch(request, *args, **kwargs)

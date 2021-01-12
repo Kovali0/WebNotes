@@ -1,35 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d12490cf-1a81-414b-a9cd-6ca1a7d6256e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/simple-sidebar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DjangoLab.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DjangoLab.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/notes/topic_confirm_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/notes/topic_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/notes/topic_update_form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DjangoLab/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoLab/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DjangoLab/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoLab/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/notes/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/notes/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notes/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/notes/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/topics/topic_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/notes/topic_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/topics/topic_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/notes/topic_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/users/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/users/dashboard.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
@@ -56,6 +49,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/front/js" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -69,7 +63,7 @@
       <recent name="C:\Users\Kowalio\Desktop\UJ\Semestr1\EPwP\DjangoLab\templates\topics" />
     </key>
   </component>
-  <component name="RunManager" selected="Django Server.DjangoLab">
+  <component name="RunManager" selected="Python.manage">
     <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DjangoLab" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -169,7 +163,12 @@
       <workItem from="1609523173319" duration="6880000" />
       <workItem from="1609585871420" duration="1482000" />
       <workItem from="1609589352320" duration="1336000" />
-      <workItem from="1609590891680" duration="6983000" />
+      <workItem from="1609590891680" duration="7655000" />
+      <workItem from="1609772184616" duration="673000" />
+      <workItem from="1610382629018" duration="196000" />
+      <workItem from="1610479112103" duration="4000" />
+      <workItem from="1610481082418" duration="7000" />
+      <workItem from="1610481104570" duration="519000" />
     </task>
     <servers />
   </component>
